@@ -1,0 +1,192 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "server",
+					"jsonFile" : "directory-server-Debug-ca16530337ce509e32d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "server",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MeetingGrid",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MeetingGridServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid-Debug-a15cc2a1a40856d5c6dd.json",
+					"name" : "MeetingGrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer-Debug-ca482478cc84ced71637.json",
+					"name" : "MeetingGridServer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer_autogen::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer_autogen-Debug-b276629cb5f08aa52340.json",
+					"name" : "MeetingGridServer_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer_autogen_timestamp_deps::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer_autogen_timestamp_deps-Debug-7dec204c379b820c80f3.json",
+					"name" : "MeetingGridServer_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid_autogen-Debug-e735d33ba16bfe86969c.json",
+					"name" : "MeetingGrid_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid_autogen_timestamp_deps-Debug-dc960a999f0d558859d1.json",
+					"name" : "MeetingGrid_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest-Debug-d5b4caeaa0dd1020644c.json",
+					"name" : "gridtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest_autogen-Debug-f3548af8d64239dec09a.json",
+					"name" : "gridtest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest_autogen_timestamp_deps-Debug-35d3b38890be9c7b74f8.json",
+					"name" : "gridtest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest-Debug-1652867cadd75a3abc9f.json",
+					"name" : "signalingtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest_autogen-Debug-b5de0bb9c71853c8ac20.json",
+					"name" : "signalingtest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest_autogen_timestamp_deps-Debug-93a3b1fc7c327d9a0ebe.json",
+					"name" : "signalingtest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug",
+		"source" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

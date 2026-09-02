@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "E:/老秦项目/联网会议/out/build/x64-Debug/CMakeFiles/signalingtest.dir/embed.manifest"

@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/Code/Marco/WorkSpace/MeetingGrid/build/cmake_install.cmake",
+		"E:/Code/Marco/WorkSpace/MeetingGrid/build/server/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

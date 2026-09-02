@@ -1,0 +1,59 @@
+Start testing: Aug 12 14:57 中国标准时间
+----------------------------------------------------------
+1/2 Testing: gridtest
+1/2 Test: gridtest
+Command: "E:/Code/Marco/WorkSpace/MeetingGrid/build/gridtest.exe"
+Directory: E:/Code/Marco/WorkSpace/MeetingGrid/build
+"gridtest" start time: Aug 12 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+********* Start testing of TestGridManager *********
+Config: Using QtTest library 6.10.3, Qt 6.10.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 11
+PASS   : TestGridManager::initTestCase()
+PASS   : TestGridManager::knownSizes()
+PASS   : TestGridManager::invariants()
+PASS   : TestGridManager::cleanupTestCase()
+Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 3ms
+********* Finished testing of TestGridManager *********
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"gridtest" end time: Aug 12 14:57 中国标准时间
+"gridtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: signalingtest
+2/2 Test: signalingtest
+Command: "E:/Code/Marco/WorkSpace/MeetingGrid/build/signalingtest.exe"
+Directory: E:/Code/Marco/WorkSpace/MeetingGrid/build
+"signalingtest" start time: Aug 12 14:57 中国标准时间
+Output:
+----------------------------------------------------------
+********* Start testing of TestSignalingClient *********
+Config: Using QtTest library 6.10.3, Qt 6.10.3 (x86_64-little_endian-llp64 shared (dynamic) release build; by MSVC 2022), windows 11
+PASS   : TestSignalingClient::initTestCase()
+QINFO  : TestSignalingClient::fullFlow() [14:57:24.862] 信令服务已启动，监听 127.0.0.1:53578
+QINFO  : TestSignalingClient::fullFlow() [14:57:24.959] 客户端接入: m1 (127.0.0.1)
+QINFO  : TestSignalingClient::fullFlow() [14:57:24.960] 客户端接入: m2 (127.0.0.1)
+QINFO  : TestSignalingClient::fullFlow() [14:57:24.961] 客户端接入: m3 (127.0.0.1)
+QINFO  : TestSignalingClient::fullFlow() [14:57:24.992] [房间 808830015] 主持人(m1) 创建会议，成为主持人
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.021] [房间 808830015] 张伟(m3) 加入（当前 2 人）
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.054] [房间 808830015] 李娜(m2) 加入（当前 3 人）
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.147] [房间 808830015] 主持人 状态更新 mic=0 cam=1
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.178] [房间 808830015] 张伟: 大家好
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.211] [房间 808830015] 张伟(m3) 主动离开
+QINFO  : TestSignalingClient::fullFlow() [14:57:25.228] [房间 808830015] 已关闭（主持人离开）
+PASS   : TestSignalingClient::fullFlow()
+PASS   : TestSignalingClient::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 388ms
+********* Finished testing of TestSignalingClient *********
+<end of output>
+Test time =   0.42 sec
+----------------------------------------------------------
+Test Passed.
+"signalingtest" end time: Aug 12 14:57 中国标准时间
+"signalingtest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Aug 12 14:57 中国标准时间

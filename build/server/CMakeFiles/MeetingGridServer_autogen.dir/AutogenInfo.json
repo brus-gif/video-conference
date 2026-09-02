@@ -1,0 +1,148 @@
+{
+	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
+	"BUILD_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/MeetingGridServer_autogen",
+	"CMAKE_BINARY_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server",
+	"CMAKE_CURRENT_SOURCE_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid/server",
+	"CMAKE_EXECUTABLE" : "D:/settings/CMake/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"E:/Code/Marco/WorkSpace/MeetingGrid/server/CMakeLists.txt",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtInstallPaths.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6Targets.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6VersionlessAliasTargets.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtFeature.cmake",
+		"D:/settings/CMake/share/cmake-4.1/Modules/CheckCXXCompilerFlag.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicAndroidHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicGitHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicPluginHelpers_v2.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomBuildToolHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomCycloneDXHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomDocumentNamespaceHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomExternalReferenceHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomFileHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomGenerationHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomOpsHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomPurlHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomPythonHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomQtEntityHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomRelationshipHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicSbomSystemDepHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
+		"D:/settings/CMake/share/cmake-4.1/Modules/CMakeFindDependencyMacro.cmake",
+		"D:/Qt/6.10.3/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake"
+	],
+	"CMAKE_SOURCE_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid",
+	"CROSS_CONFIG" : false,
+	"DEP_FILE" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/MeetingGridServer_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "MeetingGridServer_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"E:/Code/Marco/WorkSpace/MeetingGrid/server/SignalingServer.h",
+			"Mu",
+			"EWIEGA46WW/moc_SignalingServer.cpp",
+			null
+		],
+		[
+			"E:/Code/Marco/WorkSpace/MeetingGrid/server/protocol.h",
+			"Mu",
+			"EWIEGA46WW/moc_protocol.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/MeetingGridServer_autogen/include",
+	"MOC_COMPILATION_FILE" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/MeetingGridServer_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CORE_LIB",
+		"QT_NETWORK_LIB",
+		"QT_NO_DEBUG",
+		"QT_WEBSOCKETS_LIB",
+		"UNICODE",
+		"WIN32",
+		"WIN64",
+		"_ENABLE_EXTENDED_ALIGNED_STORAGE",
+		"_UNICODE",
+		"_WIN64"
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"E:/Code/Marco/WorkSpace/MeetingGrid/build/server",
+		"E:/Code/Marco/WorkSpace/MeetingGrid/server",
+		"D:/Qt/6.10.3/msvc2022_64/include/QtCore",
+		"D:/Qt/6.10.3/msvc2022_64/include",
+		"D:/Qt/6.10.3/msvc2022_64/mkspecs/win32-msvc",
+		"D:/Qt/6.10.3/msvc2022_64/include/QtNetwork",
+		"D:/Qt/6.10.3/msvc2022_64/include/QtWebSockets"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT",
+		"Q_GADGET_EXPORT",
+		"Q_ENUM_NS"
+	],
+	"MOC_OPTIONS" : [ "-DWIN32", "--compiler-flavor=msvc" ],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/CMakeFiles/MeetingGridServer_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "D:/Qt/6.10.3/msvc2022_64/bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 10,
+	"SETTINGS_FILE" : "E:/Code/Marco/WorkSpace/MeetingGrid/build/server/CMakeFiles/MeetingGridServer_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"E:/Code/Marco/WorkSpace/MeetingGrid/server/SignalingServer.cpp",
+			"Mu",
+			null
+		],
+		[ "E:/Code/Marco/WorkSpace/MeetingGrid/server/main.cpp", "Mu", null ]
+	],
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}
