@@ -1,0 +1,2 @@
+D:/deepseekworkspace/联网会议/out/install/x64-Release/bin/MeetingGrid.exe
+D:/deepseekworkspace/联网会议/out/install/x64-Release/bin/MeetingGridServer.exe

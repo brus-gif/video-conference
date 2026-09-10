@@ -1,10 +1,11 @@
-﻿#pragma once
+#pragma once
 
 #include <QObject>
 #include <QString>
 #include <QVector>
 
 class QJsonObject;
+class QTimer;
 class QWebSocket;
 
 // WebSocket 信令客户端：封装与 MeetingGridServer 的协议交互。
@@ -77,6 +78,7 @@ private:
     static bool unpackEnvelope(const QByteArray &data, QJsonObject &meta, QByteArray &payload);
 
     QWebSocket *m_socket = nullptr;//WebSocket 套接字
+    QTimer     *m_heartbeatTimer = nullptr;//心跳定时器（30s 发一次 ping，防服务端 120s 空闲断连）
     QString m_roomId;//当前所在房间 ID，离开房间清空
     QString m_selfId;//本机在会议中的成员 ID，离开房间清空
 };

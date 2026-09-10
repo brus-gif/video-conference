@@ -1,13 +1,13 @@
 {
 	"AUTOGEN_COMMAND_LINE_LENGTH_MAX" : 32000,
-	"BUILD_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen",
-	"CMAKE_BINARY_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server",
-	"CMAKE_CURRENT_SOURCE_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server",
+	"BUILD_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen",
+	"CMAKE_BINARY_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server",
 	"CMAKE_EXECUTABLE" : "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server/CMakeLists.txt",
+		"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server/CMakeLists.txt",
 		"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
 		"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Config.cmake",
@@ -59,28 +59,28 @@
 		"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
 		"C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6/windows/app.exe.manifest.in"
 	],
-	"CMAKE_SOURCE_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae",
+	"CMAKE_SOURCE_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae",
 	"CROSS_CONFIG" : false,
-	"DEP_FILE" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/deps",
+	"DEP_FILE" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "MeetingGridServer_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server/SignalingServer.h",
+			"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server/SignalingServer.h",
 			"Mu",
 			"EWIEGA46WW/moc_SignalingServer.cpp",
 			null
 		],
 		[
-			"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server/protocol.h",
+			"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server/protocol.h",
 			"Mu",
 			"EWIEGA46WW/moc_protocol.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/include",
-	"MOC_COMPILATION_FILE" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/MeetingGridServer_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"QT_CORE_LIB",
@@ -102,8 +102,8 @@
 	],
 	"MOC_INCLUDES" : 
 	[
-		"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server",
-		"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server",
+		"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server",
+		"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server",
 		"C:/Qt/6.11.1/msvc2022_64/include/QtCore",
 		"C:/Qt/6.11.1/msvc2022_64/include",
 		"C:/Qt/6.11.1/msvc2022_64/mkspecs/win32-msvc",
@@ -127,21 +127,21 @@
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 14,
-	"PARSE_CACHE_FILE" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/CMakeFiles/MeetingGridServer_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/CMakeFiles/MeetingGridServer_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.11.1/msvc2022_64/bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 11,
-	"SETTINGS_FILE" : "E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/CMakeFiles/MeetingGridServer_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Debug/server/CMakeFiles/MeetingGridServer_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server/SignalingServer.cpp",
+			"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server/SignalingServer.cpp",
 			"Mu",
 			null
 		],
 		[
-			"E:/\u8001\u79e6\u9879\u76ee/\u8054\u7f51\u4f1a\u8bae/server/main.cpp",
+			"D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/server/main.cpp",
 			"Mu",
 			null
 		]

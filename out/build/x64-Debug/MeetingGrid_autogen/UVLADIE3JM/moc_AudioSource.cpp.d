@@ -1,4 +1,4 @@
-E:/老秦项目/联网会议/out/build/x64-Debug/MeetingGrid_autogen/UVLADIE3JM/moc_AudioSource.cpp: E:/老秦项目/联网会议/src/AudioSource.h \
+D:/deepseekworkspace/联网会议/out/build/x64-Debug/MeetingGrid_autogen/UVLADIE3JM/moc_AudioSource.cpp: D:/deepseekworkspace/联网会议/src/AudioSource.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt_malloc.h \

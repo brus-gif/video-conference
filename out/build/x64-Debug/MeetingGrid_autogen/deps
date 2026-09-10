@@ -616,27 +616,27 @@ MeetingGrid_autogen/timestamp: \
 	C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets.cmake \
 	C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargetsPrecheck.cmake \
 	C:/Qt/6.11.1/msvc2022_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake \
-	E:/老秦项目/联网会议/CMakeLists.txt \
-	E:/老秦项目/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake \
-	E:/老秦项目/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake \
-	E:/老秦项目/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake \
-	E:/老秦项目/联网会议/src/AudioSource.cpp \
-	E:/老秦项目/联网会议/src/AudioSource.h \
-	E:/老秦项目/联网会议/src/ControlButton.cpp \
-	E:/老秦项目/联网会议/src/ControlButton.h \
-	E:/老秦项目/联网会议/src/GridContainer.cpp \
-	E:/老秦项目/联网会议/src/GridContainer.h \
-	E:/老秦项目/联网会议/src/GridManager.cpp \
-	E:/老秦项目/联网会议/src/GridManager.h \
-	E:/老秦项目/联网会议/src/IconFactory.cpp \
-	E:/老秦项目/联网会议/src/IconFactory.h \
-	E:/老秦项目/联网会议/src/MainWindow.cpp \
-	E:/老秦项目/联网会议/src/MainWindow.h \
-	E:/老秦项目/联网会议/src/SignalingClient.cpp \
-	E:/老秦项目/联网会议/src/SignalingClient.h \
-	E:/老秦项目/联网会议/src/VideoSource.cpp \
-	E:/老秦项目/联网会议/src/VideoSource.h \
-	E:/老秦项目/联网会议/src/VideoTile.cpp \
-	E:/老秦项目/联网会议/src/VideoTile.h \
-	E:/老秦项目/联网会议/src/main.cpp \
+	D:/deepseekworkspace/联网会议/CMakeLists.txt \
+	D:/deepseekworkspace/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeCXXCompiler.cmake \
+	D:/deepseekworkspace/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeRCCompiler.cmake \
+	D:/deepseekworkspace/联网会议/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CMakeSystem.cmake \
+	D:/deepseekworkspace/联网会议/src/AudioSource.cpp \
+	D:/deepseekworkspace/联网会议/src/AudioSource.h \
+	D:/deepseekworkspace/联网会议/src/ControlButton.cpp \
+	D:/deepseekworkspace/联网会议/src/ControlButton.h \
+	D:/deepseekworkspace/联网会议/src/GridContainer.cpp \
+	D:/deepseekworkspace/联网会议/src/GridContainer.h \
+	D:/deepseekworkspace/联网会议/src/GridManager.cpp \
+	D:/deepseekworkspace/联网会议/src/GridManager.h \
+	D:/deepseekworkspace/联网会议/src/IconFactory.cpp \
+	D:/deepseekworkspace/联网会议/src/IconFactory.h \
+	D:/deepseekworkspace/联网会议/src/MainWindow.cpp \
+	D:/deepseekworkspace/联网会议/src/MainWindow.h \
+	D:/deepseekworkspace/联网会议/src/SignalingClient.cpp \
+	D:/deepseekworkspace/联网会议/src/SignalingClient.h \
+	D:/deepseekworkspace/联网会议/src/VideoSource.cpp \
+	D:/deepseekworkspace/联网会议/src/VideoSource.h \
+	D:/deepseekworkspace/联网会议/src/VideoTile.cpp \
+	D:/deepseekworkspace/联网会议/src/VideoTile.h \
+	D:/deepseekworkspace/联网会议/src/main.cpp \
 	C:/Program\ Files/Microsoft\ Visual\ Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe

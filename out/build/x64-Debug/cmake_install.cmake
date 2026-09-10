@@ -1,8 +1,8 @@
-# Install script for directory: E:/老秦项目/联网会议
+# Install script for directory: D:/deepseekworkspace/联网会议
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "E:/老秦项目/联网会议/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/deepseekworkspace/联网会议/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/老秦项目/联网会议/out/build/x64-Debug/server/cmake_install.cmake")
+  include("D:/deepseekworkspace/联网会议/out/build/x64-Debug/server/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "E:/老秦项目/联网会议/out/build/x64-Debug/install_local_manifest.txt"
+  file(WRITE "D:/deepseekworkspace/联网会议/out/build/x64-Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -56,6 +56,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "E:/老秦项目/联网会议/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "D:/deepseekworkspace/联网会议/out/build/x64-Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

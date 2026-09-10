@@ -1,4 +1,4 @@
-﻿#include "VideoTile.h"
+#include "VideoTile.h"
 #include "IconFactory.h"
 
 #include <QFontMetrics>
@@ -226,8 +226,15 @@ void VideoTile::paintEvent(QPaintEvent *event)
     p.setBrush(grad);
     p.drawRoundedRect(r, 12, 12);
 
-    // 中央内容：摄像头关闭 -> 剪影；开启且有画面 -> 视频；否则 -> 头像（等待画面）
-    if (!m_camOn) {
+    // 中央内容优先级（修复"关摄像头后共享屏幕本地不显示"）：
+    //   ① 共享中且已有帧 -> 永远优先显示共享画面（共享与 camOn 解耦；
+    //      联网开共享会自动关摄像头，camOn=false 也要能显示共享屏幕）
+    //   ② 摄像头关闭 -> 剪影
+    //   ③ 摄像头开且有帧 -> 视频
+    //   ④ 摄像头开但暂无帧 -> 头像 + "摄像头启动中"
+    if (m_sharing && m_hasVideo) {
+        drawVideo(p, r);//共享屏幕预览（或远端共享画面）
+    } else if (!m_camOn) {
         drawSilhouette(p, r);//摄像头关闭
     } else if (m_hasVideo) {
         drawVideo(p, r);//摄像头打开，接收到有效的数据帧

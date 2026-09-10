@@ -1,4 +1,4 @@
-﻿#pragma once
+#pragma once
 
 #include "GridContainer.h"
 #include "SignalingClient.h"
@@ -152,11 +152,16 @@ private:
     void recreateSelfCamera(const QCameraDevice &device);
     void onCameraError(const QString &message);
     void applyViewSettings();
+    // 摄像头网络推流连接单点收口：按摄像头按钮勾选态连/断（幂等，先断后连，杜绝重复推帧）
+    void syncSelfVideoNetwork();
 
     // 自动权限处理
     void requestAutoPermissions();
     void upgradeSelfToCamera();
     void createCameraSelfSource(const QCameraDevice &device);
+    // 修复问题3：自身视频源此前回退为模拟源（权限未授予/设备出错）后，
+    // 在"开启摄像头/入会需要开摄像"时尝试恢复真实摄像头（不再永久停留在模拟源）
+    void tryRestoreRealCamera();
 
     // 音频采集（真实麦克风 + 说话检测）
     void startAudioCapture();

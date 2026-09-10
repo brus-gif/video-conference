@@ -1,4 +1,4 @@
-E:/老秦项目/联网会议/out/build/x64-Debug/gridtest_autogen/include/tst_gridmanager.moc: E:/老秦项目/联网会议/tests/tst_gridmanager.cpp \
+D:/deepseekworkspace/联网会议/out/build/x64-Debug/gridtest_autogen/include/tst_gridmanager.moc: D:/deepseekworkspace/联网会议/tests/tst_gridmanager.cpp \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/assert.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt.h \
   C:/Program\ Files\ (x86)/Windows\ Kits/10/include/10.0.26100.0/ucrt/corecrt_malloc.h \
@@ -377,4 +377,4 @@ E:/老秦项目/联网会议/out/build/x64-Debug/gridtest_autogen/include/tst_gr
   C:/Qt/6.11.1/msvc2022_64/include/QtTest/qttestglobal.h \
   C:/Qt/6.11.1/msvc2022_64/include/QtTest/qttestlib-config.h \
   C:/Qt/6.11.1/msvc2022_64/include/QtTest/qttestversion.h \
-  E:/老秦项目/联网会议/src/GridManager.h
+  D:/deepseekworkspace/联网会议/src/GridManager.h

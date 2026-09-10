@@ -1,4 +1,4 @@
-﻿#include "SignalingServer.h"
+#include "SignalingServer.h"
 #include "protocol.h"
 
 #include <QDateTime>
@@ -384,7 +384,11 @@ void SignalingServer::handleSetState(QWebSocket *client, const QJsonObject &obj)
     upd[QLatin1String(Protocol::KeyMic)] = m->micOn;
     upd[QLatin1String(Protocol::KeyCam)] = m->camOn;
     upd[QLatin1String(Protocol::KeySharing)] = m->sharing;
-    broadcastToRoom(m->roomId, upd,client);
+    // 修复 M2：原实现为 broadcastToRoom(..., client)（排除发送者），与 docs/信令协议.md
+    // 示例及 tests/tst_signalingclient.cpp、server/test/smoke_test.mjs 的断言不一致
+    // （两者都要求发送者也收到自己的 member_updated 回显）。此处按协议文档统一为全员广播，
+    // 与 handleSetShare 行为一致；客户端 onMemberUpdated 对自身(idx0)更新是安全的。
+    broadcastToRoom(m->roomId, upd);
     logMsg(QStringLiteral("[房间 %1] %2 状态更新 mic=%3 cam=%4")
                .arg(m->roomId, m->name).arg(m->micOn).arg(m->camOn));
 }

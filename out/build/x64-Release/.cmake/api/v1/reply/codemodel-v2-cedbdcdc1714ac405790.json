@@ -1,0 +1,193 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-bb202205799e0939c890.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "server",
+					"jsonFile" : "directory-server-Release-ca16530337ce509e32d1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "server",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MeetingGrid",
+					"targetIndexes" : 
+					[
+						0,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "MeetingGridServer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid-Release-085e40b6253a89354045.json",
+					"name" : "MeetingGrid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer-Release-2737ae141049ce960b93.json",
+					"name" : "MeetingGridServer",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer_autogen::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer_autogen-Release-66fe288ebf8e0cf0775b.json",
+					"name" : "MeetingGridServer_autogen",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MeetingGridServer_autogen_timestamp_deps::@d19778d2e34a1e3ddfc0",
+					"jsonFile" : "target-MeetingGridServer_autogen_timestamp_deps-Release-7dec204c379b820c80f3.json",
+					"name" : "MeetingGridServer_autogen_timestamp_deps",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid_autogen-Release-1b762c2290fa7c83043f.json",
+					"name" : "MeetingGrid_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "MeetingGrid_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-MeetingGrid_autogen_timestamp_deps-Release-dc960a999f0d558859d1.json",
+					"name" : "MeetingGrid_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest-Release-b5aaa7247338a86f2f05.json",
+					"name" : "gridtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest_autogen-Release-fa1c02f2f90b717f6fc9.json",
+					"name" : "gridtest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gridtest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gridtest_autogen_timestamp_deps-Release-35d3b38890be9c7b74f8.json",
+					"name" : "gridtest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest-Release-b77fb892e3dab97faef3.json",
+					"name" : "signalingtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest_autogen-Release-44514ba5e6a0719fe34f.json",
+					"name" : "signalingtest_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "signalingtest_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-signalingtest_autogen_timestamp_deps-Release-93a3b1fc7c327d9a0ebe.json",
+					"name" : "signalingtest_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae/out/build/x64-Release",
+		"source" : "D:/deepseekworkspace/\u8054\u7f51\u4f1a\u8bae"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

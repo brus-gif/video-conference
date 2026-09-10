@@ -1,10 +1,11 @@
-﻿#include "SignalingClient.h"
+#include "SignalingClient.h"
 #include "protocol.h"
 
 #include <QJsonArray>
 #include <QJsonDocument>
 #include <QJsonObject>
 #include <QJsonParseError>
+#include <QTimer>
 #include <QUrl>
 #include <QWebSocket>
 
@@ -21,6 +22,14 @@ SignalingClient::SignalingClient(QObject *parent)
         if (!isConnected())
             emit errorOccurred(QStringLiteral("connect_failed"), m_socket->errorString());
     });
+
+    // 心跳（最小改动）：服务端 120s 未收到"任何文本消息"即断开该连接，
+    // 而媒体帧（二进制）不会刷新服务端 lastActive；此前客户端从不发 ping，
+    // 导致"不聊天/不改状态"约 2 分钟后被服务端清理（表现为成员自动退会）。
+    // 这里沿用原有文本 ping 协议，连上后每 30s 发一次；断开即停止。
+    m_heartbeatTimer = new QTimer(this);
+    m_heartbeatTimer->setInterval(30000);
+    connect(m_heartbeatTimer, &QTimer::timeout, this, &SignalingClient::ping);
 }
 
 SignalingClient::~SignalingClient()
@@ -125,11 +134,15 @@ void SignalingClient::sendMedia(const QJsonObject &meta, const QByteArray &paylo
 
 void SignalingClient::onConnected()
 {
+    if (m_heartbeatTimer)
+        m_heartbeatTimer->start(); // 开始 30s 心跳（防服务端 120s 空闲清理）
     emit connected();
 }
 
 void SignalingClient::onDisconnected()
 {
+    if (m_heartbeatTimer)
+        m_heartbeatTimer->stop();
     m_roomId.clear();
     m_selfId.clear();
     emit disconnected();
